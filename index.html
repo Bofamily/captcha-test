@@ -1,6 +1,14 @@
-<div
-  class="h-captcha"
-  data-sitekey="96a0d57e-6616-4b46-b436-e582119c6754"
-  data-theme="dark"
-  data-error-callback="onError"
-></div>
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>hCaptcha Example</title>
+        <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+    </head>
+    <body>
+        <h1>hCaptcha Example</h1>
+        <form method="POST">
+            <div class="h-captcha" data-sitekey="96a0d57e-6616-4b46-b436-e582119c6754"></div>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+    </html>
